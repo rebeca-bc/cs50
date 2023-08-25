@@ -1,27 +1,6 @@
-# cs50 Repository
-Programs made during the CS50 course
-In this repository I'll be publishing all programs made during Harvard's CS50 course.
+# Image Modifier
+Program made with base of the CS50 course. It helps modify images by applying several filters (balck and white, sepia, mirroring, etc).
 
 ## Languages
-All languages learnt and used in this repository are:
+Language used in this repository is:
 * C
-* Python
-* SQL
-* HTML
-* CSS
-* JavaScript
-
-## Topics
-Some of the main topics leanr and put to practice are:
-* Recursivity
-* Data Structures
-* E-R databases
-* Abstraction & Algorithms
-* Memory
-  * Pointers
-  * Dynamic Memory
-  * Stacks
-  * Buffers
-* Flasks
-* Unicode and emojis
-* Website Creation

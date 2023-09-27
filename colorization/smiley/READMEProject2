@@ -1,0 +1,36 @@
+# Colorize Smiley Project
+
+Welcome to the "Colorize Smiley" project! This project was created as part of my learning journey to explore image manipulation in C. In this project, I learned how to work with images, manipulate pixels, and change the color of a picture through struct RGB manipulation.
+
+## Learning Goals
+
+The primary learning goals for this project were:
+
+1. Learn how to work with images.
+2. Practice manipulating pixels.
+3. Gain experience in changing image colors.
+
+## Project Details
+
+In this project, you'll find several files provided in the distribution code to handle the reading and writing of an image file, as well as handling the image's metadata or "headers." The main task was to complete the `colorize` function in `helpers.c`, which already had input parameters, including the image's height, width, and a two-dimensional array of RGBTRIPLE's, which create the image itself.
+
+## How to Run
+
+To run the code, follow these steps:
+
+1. Use the `make` command to compile the code:
+   ```bash
+   make colorize
+
+2. Run the compiled program with the input image file (e.g., smiley.bmp) and specify the output file (e.g., outfile.bmp):
+  ```bash
+  ./colorize smiley.bmp outfile.bmp
+
+Here are two images to showcase the change of color in the "Colorize Smiley" project:
+
+Original Image (smiley.bmp):
+
+Colorized Image (outfile.bmp):
+
+
+Feel free to explore the code, experiment with different images, and enjoy the process of learning about image manipulation in C!

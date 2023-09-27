@@ -26,11 +26,4 @@ To run the code, follow these steps:
   ```bash
   ./colorize smiley.bmp outfile.bmp
 
-Here are two images to showcase the change of color in the "Colorize Smiley" project:
-
-Original Image (smiley.bmp):
-
-Colorized Image (outfile.bmp):
-
-
 Feel free to explore the code, experiment with different images, and enjoy the process of learning about image manipulation in C!

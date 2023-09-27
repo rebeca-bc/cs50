@@ -1,0 +1,26 @@
+# Finance Web Application
+
+Welcome to the "Finance" web application project! This project is developed using Flask, Python, HTML, CSS, and SQL. It allows users to manage their financial portfolio by buying and selling stocks, checking their portfolio summary, and viewing transaction history.
+
+![Website Screenshot](finance/imageshow.png)
+
+## Running the Web Application
+
+To run the web application locally on your machine, follow these steps:
+
+1. **Start Flask's Built-in Web Server:** Navigate to the "finance" directory and run the Flask web server using the following command:
+
+  ```bash
+  flask run
+  Visit the URL displayed by Flask in your web browser to see the distribution code in action. Please note that you won't be able to log in or register at this point.
+
+2. Open the Database with SQLite: Within the "finance" directory, open the SQLite database "finance.db" using the following command:
+  bash
+  Copy code
+  sqlite3 finance.db
+  You can use the .schema command in the SQLite prompt to view the database's structure and the SELECT * FROM users; command to check the current users (there won't be any users initially).
+  Explore with phpLiteAdmin: Another way to view the database is by using phpLiteAdmin. Click on "finance.db" in your code space's file browser, then click the link shown underneath the text "Please visit the following link to authorize GitHub Preview." You will see information about the database and the "users" table.
+
+## Contributing
+
+If you would like to contribute to this project, please fork the repository and create a pull request. We welcome your contributions and suggestions!

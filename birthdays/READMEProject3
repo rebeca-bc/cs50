@@ -1,0 +1,45 @@
+# Birthday Tracker Web App
+
+Welcome to the "Birthday Tracker" web application! This project is developed using Flask, Python, HTML, CSS, and SQL. It allows you to add and delete birthdays and generates a table to display them.
+
+![Website Screenshot](imageshow.png)
+
+## How to Run the Web Application
+
+To run the web application locally on your machine, follow these steps:
+
+1. **Clone the Repository:** 
+If you haven't already, clone this repository to your local machine using the following command:
+  ```bash
+  git clone https://github.com/rebeca-bc/cs50.git
+2. **Navigate to the "birthdays" Folder:**
+Change your working directory to the "birthdays" folder using the cd command:
+  bash
+3. **Copy code**
+  cd cs50/birthdays
+4. **Install Dependencies:**
+If you haven't installed the required dependencies, use pip to install them:
+  bash
+  Copy code
+  pip install -r requirements.txt
+  Set Up the Database: Initialize the database by running the following command:
+  bash
+  Copy code
+  flask db init
+5. **Migrate and Upgrade the Database:** 
+Apply the initial migration and upgrade the database schema:
+  bash
+  Copy code
+  flask db migrate
+  flask db upgrade
+6. **Run the Application:** 
+Start the Flask web server by running the following command:
+  bash
+  Copy code
+  flask run
+  The application will be available at http://127.0.0.1:5000/ in your web browser.
+
+7. Interact with the Application: You can now interact with the web application, add birthdays, delete them, and explore the birthday table.
+Contributing
+
+If you would like to contribute to this project, please fork the repository and create a pull request. We welcome your contributions and suggestions!

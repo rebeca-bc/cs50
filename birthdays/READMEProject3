@@ -2,7 +2,7 @@
 
 Welcome to the "Birthday Tracker" web application! This project is developed using Flask, Python, HTML, CSS, and SQL. It allows you to add and delete birthdays and generates a table to display them.
 
-![Website Screenshot](imageshow.png)
+![Website Screenshot](birthdays/imageshow.png)
 
 ## How to Run the Web Application
 
